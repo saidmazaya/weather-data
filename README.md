@@ -59,7 +59,7 @@ If you need to change the database configuration you can change it in
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/saidmazaya/weather-data.git
 ```
 
 Go to the project directory
