@@ -10,7 +10,7 @@ Weather Data Management System Using Docker, Airflow, ETL, MySQL, PostgreSQL, Py
 
 #### Get New York Data
 
-```http
+```https
   GET https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/new%20york/today
 ```
 
@@ -23,7 +23,7 @@ Weather Data Management System Using Docker, Airflow, ETL, MySQL, PostgreSQL, Py
 
 #### Get Pennsylvania Data
 
-```http
+```https
   GET https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/pennsylvania/today
 ```
 
@@ -34,6 +34,11 @@ Weather Data Management System Using Docker, Airflow, ETL, MySQL, PostgreSQL, Py
 | `api_key` | `string` | **Required**. Your API key |
 | `contentType` | `string` | json |
 
+
+
+## Appendix
+
+Make New Folder `app`, `config`, `logs`, `plugins`
 
 
 ## Environment Variables
@@ -54,7 +59,7 @@ If you need to change the database configuration you can change it in
 Clone the project
 
 ```bash
-  git clone https://github.com/saidmazaya/weather-data.git
+  git clone https://link-to-project
 ```
 
 Go to the project directory
