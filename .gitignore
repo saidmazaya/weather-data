@@ -1,0 +1,12 @@
+# Ignore .pyc files
+*.pyc
+
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore local logs and SQLite databases
+logs/
+*.db
+
+.env
+```
